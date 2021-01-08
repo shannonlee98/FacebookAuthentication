@@ -1,0 +1,28 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "latest",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "^4.17.1",
+    "express-session": "latest",
+    "mongoose": "latest",
+    "morgan": "^1.10.0",
+    "mysql": "latest",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "latest"
+  }
+}
